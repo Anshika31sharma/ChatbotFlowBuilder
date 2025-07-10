@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+html,
+body,
+#root {
+  @apply h-full;
+}
+
+.react-flow__node-textNode {
+  @apply bg-white rounded-lg shadow px-4 py-2 border border-gray-300;
+}
